@@ -1,0 +1,18 @@
+{
+  "name": "elecdb",
+  "version": "1.0.0",
+  "description": "prueba de conexión con sqlite3",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "avillar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.8"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}

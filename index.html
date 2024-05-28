@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Electron SQLite CRUD</title>
+</head>
+<body>
+  <h1>Users</h1>
+  <form id="addUserForm">
+    <input type="text" name="name" placeholder="Name" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <button type="submit">Add User</button>
+  </form>
+  <ul id="userList"></ul>
+  <script src="renderer.js"></script>
+</body>
+</html>
